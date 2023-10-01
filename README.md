@@ -2,6 +2,7 @@
 
 ## Contributors ✨
 
-SR No   | Program | Author  
---- | --- | ---
-1 | Guess The Number | [Diwakar Kumar](https://github.com/diwakar1593)
+| SR No | Program          | Author                                                |
+| ----- | ---------------- | ----------------------------------------------------- |
+| 1     | Guess The Number | [Diwakar Kumar](https://github.com/diwakar1593)       |
+| 2     | Hangman          | [dollarboysushil](https://github.com/dollarboysushil) |
