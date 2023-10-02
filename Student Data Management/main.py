@@ -3,8 +3,11 @@
 
 import mysql.connector
 
+#Update password with your my-sql password
+password = "mysql"
+
 # Connect to MySQL
-db = mysql.connector.connect(host="localhost", user="root", password="mysql")
+db = mysql.connector.connect(host="localhost", user="root", password=password)
 
 # Create a cursor
 cursor = db.cursor()
@@ -40,7 +43,7 @@ def menu():
 def fetchdata():
     import mysql.connector
     try:
-        db = mysql.connector.connect(host="localhost",user="root",password='mysql',database='school')
+        db = mysql.connector.connect(host="localhost",user="root",password=password,database='school')
         cursor = db.cursor()
         cursor.execute("SELECT * FROM student" )
         results = cursor.fetchall()
@@ -52,7 +55,7 @@ def fetchdata():
         
 def adddata():
     import mysql.connector
-    db = mysql.connector.connect(host='localhost',user='root',password='mysql',database='school')
+    db = mysql.connector.connect(host='localhost',user='root',password=password,database='school')
     cursor = db.cursor()
     table = "CREATE TABLE IF NOT EXISTS student (name VARCHAR(30), rollno INT, branch VARCHAR(30))"
     cursor.execute(table)
@@ -69,7 +72,7 @@ def adddata():
 def updatedata():
     import mysql.connector
     try:
-        db = mysql.connector.connect(host="localhost",user="root",password='mysql',database='school')
+        db = mysql.connector.connect(host="localhost",user="root",password=password,database='school')
         cursor = db.cursor()
         name = input("Enter the student name (update):")
         field = input("Which data you want to update? :")
@@ -83,7 +86,7 @@ def updatedata():
         
 def deldata():
     import mysql.connector
-    db = mysql.connector.connect(host="localhost",user="root",password='mysql',database='school')
+    db = mysql.connector.connect(host="localhost",user="root",password=password,database='school')
     cursor = db.cursor()
     name = input("Enter the student name (delete):")
     sql = f"delete from student where name='{name}'"
