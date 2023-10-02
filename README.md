@@ -13,3 +13,4 @@
 | 5 | Tic Tac Toe | [Sayan Barma](https://github.com/N00BSC00B)
 | 6 | Hotel Management System GUI | [Harsh Thakur]
 | 7 | Calculator | [BiscuitCandy](https://github.com/biscuitcandy) 
+| 8 | Student Data Management | [Harsh Sharma](https://github.com/HarshSharmaIN)   |
