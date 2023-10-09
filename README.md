@@ -16,4 +16,4 @@
 | 8 | Student Data Management | [Harsh Sharma](https://github.com/HarshSharmaIN)   |
 | 9 | Jarvis Using Python | [Sahil Kumar](https://github.com/SahilKumarIN) |
 | 10 | Weather App | [Nafisha Aslam](https://github.com/Nafisha08)
-
+| 11 | Rock, Paper, Scissors | [Avyukt Soni](https://github.com/avyuktsoni0731) |
