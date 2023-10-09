@@ -18,4 +18,4 @@
 | 10 | Weather App | [Nafisha Aslam](https://github.com/Nafisha08)
 | 11 | Rock, Paper, Scissors | [Avyukt Soni](https://github.com/avyuktsoni0731) |
 | 12 | Birthday Calendar| [ASHISH SINHA](https://github.com/ashishbuster)  | 
-| 13 | Prime Number | [Moola Pravalesh](https://github.com/MoolaPravalesh19) |
+| 14 | Prime Number program| [Moola Pravalesh](https://github.com/MoolaPravalesh19) |
